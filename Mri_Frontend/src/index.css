@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Custom color tokens for the healthcare brand */
+:root {
+  --brand: #06b6d4; /* cyan-500 like */
+  --brand-dark: #0891b2;
+  --muted: #64748b;
+}
+
+/* small helpers */
+.bg-brand-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(6, 182, 212, 0.08),
+    rgba(6, 182, 212, 0.02)
+  );
+}
